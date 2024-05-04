@@ -2,7 +2,7 @@
 
 ## git and github
 ### topics
-Git Flow: metodologia e plugin
+- Git Flow: metodologia e plugin
 Configurações branches
 Pull requests / Templates para PR
 Code Review
