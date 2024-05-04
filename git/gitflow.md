@@ -1,5 +1,5 @@
 # commands
-### iniciar repositório com o git flow
+#### iniciar repositório com o git flow
 git flow init
 
 ### criar branch feature
