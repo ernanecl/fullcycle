@@ -1,29 +1,29 @@
-# commands
-#### iniciar repositório com o git flow
+### gitflow commands
+#### start repository with gitflow
 ```
 git flow init
 ```
-#### criar branch feature
+#### create feature branch
 ```
 git flow feature start <branch_name>
 ```
-#### merge com a branch develop
+#### merge with the develop branch
 ```
 git flow feature finish <branch_name>
 ```
-#### criar branch release
+#### create release branch
 ```
 git flow realease start <branch_name>
 ```
-#### merger da branch realease com a main e develop
+#### merge the release branch with main and develop
 ```
 git flow realease finish <branch_name>
 ```
-#### criar branch hotfix
+#### create hotfix branch
 ```
 git flow hotfix start <branch_name>
 ```
-#### merger da branch hotfix com a main e develop
+#### merge the hotfix branch with main and develop
 ```
 git flow hotfix finish <branch_name>
 ```
