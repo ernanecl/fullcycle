@@ -44,6 +44,7 @@ export GPG_TTY=$(tty)
 vim ~/.bash_profile
 ```
 
+
 ### configuring agent on Linux when it is not working automatically
 #### on Linux create gpg.conf in the gnupg directory and add <use-agent>
 ```
