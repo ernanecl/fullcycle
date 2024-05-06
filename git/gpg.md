@@ -9,15 +9,17 @@ gpg --full-generate-key
 ```
 #### export public key
 ```
-gpg --armor --export <public_key>
+gpg --armor --export <id_rsa>
 ```
 #### configure subscription key with generated ID
 ```
-git config --global user.signingkey <id_code>
+git config --global user.signingkey <id_rsa>
 ```
 #### configure environment variable <GPG_TTY=$(tty)> on bash
 ```
 export GPG_TTY=$(tty)
+```
+```
 vim ~/.bash_profile
 ```
 #### automatic commit signing per repository
@@ -32,9 +34,15 @@ git config --global commit.gpgsign true
 ```
 git config --global tag.gpgsign true
 ```
+#### after of the first commit, check signing
+```
+git log --show-signature -1
+```
 #### on Linux create gpg.conf in the gnupg directory and add <use-agent>
 ```
 vim ~/.gnupg/gpg.conf
 ```
 #### activate agent to not request validation key again
+```
 gpgconf --launch gpg-agent
+```
