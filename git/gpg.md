@@ -7,6 +7,10 @@ gpg --list-secret-key --keyid-form LONG
 ```
 gpg --full-generate-key
 ```
+#### export public key
+```
+gpg --armor --export <public_key>
+```
 #### configure subscription key with generated ID
 ```
 git config --global user.signingkey <id_code>
@@ -28,3 +32,9 @@ git config --global commit.gpgsign true
 ```
 git config --global tag.gpgsign true
 ```
+#### on Linux create gpg.conf in the gnupg directory and add <use-agent>
+```
+vim ~/.gnupg/gpg.conf
+```
+#### activate agent to not request validation key again
+gpgconf --launch gpg-agent
