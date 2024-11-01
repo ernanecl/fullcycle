@@ -1,5 +1,3 @@
-# fullcycle
-Curso Full Cycle
 # Resumo do Curso Full Cycle 
 
 O curso abrange uma ampla gama de tópicos, desde os fundamentos de *desenvolvimento de software* até arquiteturas complexas e ferramentas de última geração. O objetivo principal é capacitar os alunos a construir sistemas escaláveis, resilientes e eficientes, utilizando as melhores práticas da indústria. 
